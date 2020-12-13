@@ -3,29 +3,65 @@ html {
 }
 
 
-
-
 body {
-  background-color:#d3ccb1;
+  font-size: 16px;
+  background-color: white;
   display: flex;
   justify-content: center;  
 }
 
-
-
 #intro {
   font-style: italic;
-  font-size: large;
   align-content: center;
   flex-direction: row;
 }
 
 
-#header {
-  font-size: 30px;
-}
-
-.main {
-  font-size: 20px;
+#main {
   align-content: flex-start;
 }
+
+
+nav {
+text-decoration: none;
+text-transform: uppercase;
+flex-direction: column;
+}
+
+li {
+padding: 10px;
+display: flex;
+flex-direction: row;
+}
+
+h1, h6 {
+  font-style: italic;
+}
+
+p {
+  text-align: justify;
+  line-height: 2;
+}
+
+section > article {
+  border-color: #CCCCCC;
+  border-width: 2px;
+  border-style: dotted;
+  text-align: left;
+  padding: 1%;
+  display: inline-block;
+}
+
+footer > section:first-child {
+  border-color: #CCCCCC;
+  border-width: 2px;
+  border-style: dotted;
+  display: inline-block;
+}
+
+form:hover {
+  color: green;
+  width: 50%;
+  display: inline;
+}
+
